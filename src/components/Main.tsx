@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import Nav from './Nav';
 import Home from './Home';
 import About from './About';
+import Recipe from './Recipe';
 
 export default function Main() {
 	const [page, _setPage] = useState('home');
@@ -19,7 +20,7 @@ export default function Main() {
 			}}>
 			<Nav setPage={setPage} />
 			{recipe ? (
-				<div>Recipes</div>
+				<Recipe />
 			) : (
 				<>
 					{page === 'home' && <Home setRecipe={setRecipe} />}
