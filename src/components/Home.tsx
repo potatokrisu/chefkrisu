@@ -30,7 +30,7 @@ const Home: React.FC<HomeProps> = ({ setRecipe }) => {
 				style={{
 					margin: '4em 0',
 					display: 'grid',
-					gridTemplateColumns: '1fr 1fr',
+					gridTemplateColumns: '1fr 1fr 1fr',
 					gridGap: '4rem',
 				}}>
 				<Card style={{ display: 'inline-flex', flexDirection: 'column' }}>
@@ -43,6 +43,21 @@ const Home: React.FC<HomeProps> = ({ setRecipe }) => {
 						/>
 						<CardContent style={{ backgroundColor: '#E0E0E0', flexGrow: 1 }}>
 							<Typography variant="h4">{'Checkered Icebox Cookies'}</Typography>
+							<Typography>{'Description here'}</Typography>
+							<Typography>{'October 26th, 2021'}</Typography>
+						</CardContent>
+					</CardActionArea>
+				</Card>
+				<Card style={{ display: 'inline-flex', flexDirection: 'column' }}>
+					<CardActionArea onClick={() => setRecipe('icebox')}>
+						<CardMedia
+							component="img"
+							image="https://i.ytimg.com/vi/v7vKePq8bF4/maxresdefault.jpg"
+							alt="eggyolk"
+							style={{ height: '20rem' }}
+						/>
+						<CardContent style={{ backgroundColor: '#E0E0E0', flexGrow: 1 }}>
+							<Typography variant="h4">{'Korean Egg Yolk Cookies'}</Typography>
 							<Typography>{'Description here'}</Typography>
 							<Typography>{'October 26th, 2021'}</Typography>
 						</CardContent>
