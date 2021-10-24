@@ -1,25 +1,32 @@
 import React, { useState } from 'react';
 
 import Nav from './Nav';
+import Home from './Home';
 
 export default function Main() {
-	const [page, setPage] = useState('home');
+	const [page, _setPage] = useState('home');
+	const [recipe, setRecipe] = useState('');
+
+	const setPage = (page: string) => (_setPage(page), setRecipe(''));
 
 	return (
 		<div
 			style={{
-				position: 'fixed',
-				top: 0,
-				left: 0,
 				width: '100%',
 				height: '100%',
 				backgroundColor: '#FAF8DE',
 			}}>
 			<Nav setPage={setPage} />
-			<div style={{ marginTop: '4em' }}>
-				{page === 'home' && <div>Home</div>}
-				{page === 'about' && <div>About</div>}
-				{page === 'recipes' && <div>Recipes</div>}
+			<div style={{ padding: '8em' }}>
+				{recipe ? (
+					<div>Recipes</div>
+				) : (
+					<>
+						{page === 'home' && <Home setRecipe={setRecipe} />}
+						{page === 'about' && <div>About</div>}
+						{page === 'recipes' && <div>Recipes</div>}
+					</>
+				)}
 			</div>
 		</div>
 	);
