@@ -8,8 +8,8 @@ export interface NavProps {
 
 const Nav: React.FC<NavProps> = ({ setPage }) => {
 	return (
-		<div style={{ position: 'fixed', top: 0, height: '4em', width: '100%' }}>
-			<div style={{ display: 'flex', justifyContent: 'space-between', padding: '0.5em' }}>
+		<div style={{ position: 'fixed', top: 0, height: '4rem', width: '100%', zIndex: 1 }}>
+			<div style={{ display: 'flex', justifyContent: 'space-between', padding: '0.5rem' }}>
 				<div style={{ display: 'inline-block' }}>
 					<Typography variant="h4">{'CHEFKRISU'}</Typography>
 				</div>
@@ -19,7 +19,7 @@ const Nav: React.FC<NavProps> = ({ setPage }) => {
 						underline="none"
 						style={{
 							display: 'inline-block',
-							padding: '0 0.5em',
+							padding: '0 0.5rem',
 							cursor: 'pointer',
 						}}
 						onClick={() => setPage('home')}>
@@ -30,7 +30,7 @@ const Nav: React.FC<NavProps> = ({ setPage }) => {
 						underline="none"
 						style={{
 							display: 'inline-block',
-							padding: '0 0.5em',
+							padding: '0 0.5rem',
 							cursor: 'pointer',
 						}}
 						onClick={() => setPage('about')}>
@@ -41,7 +41,7 @@ const Nav: React.FC<NavProps> = ({ setPage }) => {
 						underline="none"
 						style={{
 							display: 'inline-block',
-							padding: '0 0.5em',
+							padding: '0 0.5rem',
 							cursor: 'pointer',
 						}}
 						onClick={() => setPage('recipes')}>

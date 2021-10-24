@@ -8,7 +8,7 @@ export interface HomeProps {
 
 const Home: React.FC<HomeProps> = ({ setRecipe }) => {
 	return (
-		<div style={{ width: '100%', height: '100%' }}>
+		<div style={{ width: 'calc(100% - 16em)', height: 'calc(100% - 16em)', padding: '8rem' }}>
 			<Card>
 				<CardActionArea
 					style={{ display: 'flex', alignItems: 'stretch' }}
@@ -17,7 +17,7 @@ const Home: React.FC<HomeProps> = ({ setRecipe }) => {
 						component="img"
 						image="https://www.nationaldayarchives.com/wp-content/uploads/2019/11/macarons-7-min-1024x683.jpg"
 						alt="macarons"
-						style={{ height: '20em', width: '30em' }}
+						style={{ height: '20rem', width: '30rem' }}
 					/>
 					<CardContent style={{ backgroundColor: '#E0E0E0', flexGrow: 1 }}>
 						<Typography variant="h4">{'Lingonberry Macarons'}</Typography>
@@ -31,7 +31,7 @@ const Home: React.FC<HomeProps> = ({ setRecipe }) => {
 					margin: '4em 0',
 					display: 'grid',
 					gridTemplateColumns: '1fr 1fr',
-					gridGap: '4em',
+					gridGap: '4rem',
 				}}>
 				<Card style={{ display: 'inline-flex', flexDirection: 'column' }}>
 					<CardActionArea onClick={() => setRecipe('icebox')}>
@@ -39,7 +39,7 @@ const Home: React.FC<HomeProps> = ({ setRecipe }) => {
 							component="img"
 							image="https://www.fifteenspatulas.com/wp-content/uploads/2011/12/checkerboardcookies6-large.jpg"
 							alt="icebox"
-							style={{ height: '20em' }}
+							style={{ height: '20rem' }}
 						/>
 						<CardContent style={{ backgroundColor: '#E0E0E0', flexGrow: 1 }}>
 							<Typography variant="h4">{'Checkered Icebox Cookies'}</Typography>
@@ -54,7 +54,7 @@ const Home: React.FC<HomeProps> = ({ setRecipe }) => {
 							component="img"
 							image="https://dinnersdishesanddesserts.com/wp-content/uploads/2018/07/Mini-Pavlovas-square-735x578.jpg"
 							alt="pavlova"
-							style={{ height: '20em' }}
+							style={{ height: '20rem' }}
 						/>
 						<CardContent style={{ backgroundColor: '#E0E0E0', flexGrow: 1 }}>
 							<Typography variant="h4">{'Mini Fruit Pavlova'}</Typography>
