@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 
 import Nav from './Nav';
 import Home from './Home';
+import About from './About';
 
 export default function Main() {
 	const [page, _setPage] = useState('home');
@@ -17,17 +18,15 @@ export default function Main() {
 				backgroundColor: '#FAF8DE',
 			}}>
 			<Nav setPage={setPage} />
-			<div style={{ padding: '8em' }}>
-				{recipe ? (
-					<div>Recipes</div>
-				) : (
-					<>
-						{page === 'home' && <Home setRecipe={setRecipe} />}
-						{page === 'about' && <div>About</div>}
-						{page === 'recipes' && <div>Recipes</div>}
-					</>
-				)}
-			</div>
+			{recipe ? (
+				<div>Recipes</div>
+			) : (
+				<>
+					{page === 'home' && <Home setRecipe={setRecipe} />}
+					{page === 'about' && <About />}
+					{page === 'recipes' && <div>Recipes</div>}
+				</>
+			)}
 		</div>
 	);
 }
