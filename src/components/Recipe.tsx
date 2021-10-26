@@ -1,31 +1,32 @@
 import React from 'react';
 
-import { Card, CardContent, CardMedia, Divider, Typography } from '@mui/material';
+import { Card, CardContent, CardMedia, Typography } from '@mui/material';
+
+import recipes from '../recipes.json';
 
 export default function Recipe() {
+	const recipeId = new URLSearchParams(window.location.search).get('recipe')!;
+	const recipe = recipes[recipeId as keyof typeof recipes];
+
 	return (
 		<div style={{ padding: '4rem', width: 'calc(100% - 8rem)', minHeight: '100%' }}>
 			<Card style={{ padding: '4rem', paddingBottom: '1rem', marginBottom: '2rem' }}>
 				<CardMedia
 					component="img"
-					image="https://dinnersdishesanddesserts.com/wp-content/uploads/2018/07/Mini-Pavlovas-square-735x578.jpg"
-					alt="macaron"
+					image={recipe.header.image}
+					alt={recipeId}
 					style={{ height: '32rem' }}
 				/>
 				<CardContent>
 					<Typography variant="h4" style={{ padding: '1rem' }}>
-						{'Pavlova'}
+						{recipe.header.title}
 					</Typography>
 					<div style={{ padding: '0.5rem' }}>
-						<Typography variant="h6" style={{ padding: '0.5rem' }}>
-							{'Cuisine: French & Swedish | Difficult: Hard'}
-						</Typography>
-						<Typography variant="h6" style={{ padding: '0.5rem' }}>
-							{'Servings: 17 | Prep time: 2 | Cook time: 4'}
-						</Typography>
-						<Typography variant="h6" style={{ padding: '0.5rem' }}>
-							{'Description here'}
-						</Typography>
+						{recipe.header.captions.map((caption, i) => (
+							<Typography key={i} variant="h6" style={{ padding: '0.5rem' }}>
+								{caption}
+							</Typography>
+						))}
 					</div>
 				</CardContent>
 			</Card>
@@ -33,29 +34,23 @@ export default function Recipe() {
 				<Card style={{ marginBottom: '1rem' }}>
 					<CardContent style={{ textAlign: 'left', padding: '1rem' }}>
 						<Typography variant="h5">{'DIRECTIONS'}</Typography>
-						<Typography>{'Step 1: nyeh'}</Typography>
-						<Typography>{'Step 2: nyeh'}</Typography>
-						<Typography>{'Step 3: nyeh'}</Typography>
+						{recipe.directions.list.map((d, i) => (
+							<Typography key={i}>{d}</Typography>
+						))}
+						{recipe.directions.caption && <Typography>{recipe.directions.caption}</Typography>}
 					</CardContent>
 				</Card>
-				<Card style={{ marginBottom: '1rem' }}>
-					<CardMedia component="img" image="" alt="Step 1 picture here" />
-					<CardContent style={{ textAlign: 'left', padding: '1rem' }}>
-						<Typography variant="h5">{'STEP 1'}</Typography>
-						<Typography>{'Step 1: nyeh'}</Typography>
-						<Typography>{'Step 2: nyeh'}</Typography>
-						<Typography>{'Step 3: nyeh'}</Typography>
-					</CardContent>
-				</Card>
-				<Card style={{ marginBottom: '1rem' }}>
-					<CardMedia component="img" image="" alt="Step 2 picture here" />
-					<CardContent style={{ textAlign: 'left', padding: '1rem' }}>
-						<Typography variant="h5">{'STEP 2'}</Typography>
-						<Typography>{'Step 1: nyeh'}</Typography>
-						<Typography>{'Step 2: nyeh'}</Typography>
-						<Typography>{'Step 3: nyeh'}</Typography>
-					</CardContent>
-				</Card>
+				{recipe.steps.map((step, i) => (
+					<Card style={{ marginBottom: '1rem' }}>
+						{step.image && (
+							<CardMedia component="img" image={step.image} alt={`Step ${i} picture here`} />
+						)}
+						<CardContent style={{ textAlign: 'left', padding: '1rem' }}>
+							<Typography variant="h5">{`STEP ${i}`}</Typography>
+							<Typography>{step.caption}</Typography>
+						</CardContent>
+					</Card>
+				))}
 			</div>
 			<div
 				style={{
@@ -69,9 +64,10 @@ export default function Recipe() {
 				<Card>
 					<CardContent style={{ textAlign: 'left', padding: '1rem' }}>
 						<Typography variant="h5">{'INGREDIENTS'}</Typography>
-						<Typography>{'Step 1: nyeh joos'}</Typography>
-						<Typography>{'Step 2: nyeh powder'}</Typography>
-						<Typography>{'Step 3: nyeh sauce'}</Typography>
+						{recipe.ingredients.list.map((i, j) => (
+							<Typography key={j}>{i}</Typography>
+						))}
+						{recipe.ingredients.caption && <Typography>{recipe.ingredients.caption}</Typography>}
 					</CardContent>
 				</Card>
 			</div>
