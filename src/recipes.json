@@ -1,0 +1,97 @@
+{
+	"macaron": {
+		"header": {
+			"image": "https://dinnersdishesanddesserts.com/wp-content/uploads/2018/07/Mini-Pavlovas-square-735x578.jpg",
+			"title": "Lingonberry Macarons",
+			"captions": [
+				"Cuisine: French & Swedish | Difficult: Hard",
+				"Servings: 17 | Prep time: 2 | Cook time: 4",
+				"Description here"
+			]
+		},
+		"directions": { "list": ["Step 1: nyeh", "Step 2: nyeh", "Step 3: nyeh"], "caption": "" },
+		"ingredients": {
+			"list": ["Step 1: nyeh joos", "Step 2: nyeh powder", "Step 3: nyeh sauce"],
+			"caption": ""
+		},
+		"steps": [
+			{
+				"image": "",
+				"caption": "long lorem ipsum dolor sit amet consecteturem adipiscing elit"
+			},
+			{
+				"image": "",
+				"caption": "long lorem ipsum dolor sit amet consecteturem adipiscing elit"
+			},
+			{
+				"image": "",
+				"caption": "long lorem ipsum dolor sit amet consecteturem adipiscing elit"
+			},
+			{
+				"image": "",
+				"caption": "long lorem ipsum dolor sit amet consecteturem adipiscing elit"
+			},
+			{
+				"image": "",
+				"caption": "long lorem ipsum dolor sit amet consecteturem adipiscing elit"
+			},
+			{
+				"image": "",
+				"caption": "long lorem ipsum dolor sit amet consecteturem adipiscing elit"
+			},
+			{
+				"image": "",
+				"caption": "long lorem ipsum dolor sit amet consecteturem adipiscing elit"
+			},
+			{
+				"image": "",
+				"caption": "long lorem ipsum dolor sit amet consecteturem adipiscing elit"
+			}
+		]
+	},
+	"icebox": {
+		"header": {
+			"image": "https://dinnersdishesanddesserts.com/wp-content/uploads/2018/07/Mini-Pavlovas-square-735x578.jpg",
+			"title": "",
+			"captions": ["", "", ""]
+		},
+		"directions": { "list": [""], "caption": "" },
+		"ingredients": { "list": [""], "caption": "" },
+		"steps": [
+			{
+				"image": "",
+				"caption": ""
+			}
+		]
+	},
+	"eggyolk": {
+		"header": {
+			"image": "https://dinnersdishesanddesserts.com/wp-content/uploads/2018/07/Mini-Pavlovas-square-735x578.jpg",
+			"title": "",
+			"captions": ["", "", ""]
+		},
+		"directions": { "list": [""], "caption": "" },
+		"ingredients": { "list": [""], "caption": "" },
+		"steps": [
+			{
+				"image": "",
+				"caption": ""
+			}
+		]
+	},
+	"pavlova": {
+		"header": {
+			"image": "https://dinnersdishesanddesserts.com/wp-content/uploads/2018/07/Mini-Pavlovas-square-735x578.jpg",
+			"title": "",
+			"captions": ["", "", ""]
+		},
+		"directions": { "list": [""], "caption": "" },
+		"ingredients": { "list": [""], "caption": "" },
+		"steps": [
+			{
+				"image": "",
+				"caption": ""
+			}
+		]
+	}
+}

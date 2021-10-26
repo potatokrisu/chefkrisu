@@ -1,0 +1,42 @@
+{
+	"home": {
+		"cards": [
+			{
+				"image": "https://www.nationaldayarchives.com/wp-content/uploads/2019/11/macarons-7-min-1024x683.jpg",
+				"id": "macaron",
+				"title": "Lingonberry Macarons",
+				"description": "Description here",
+				"date": "October 26th, 2021"
+			},
+			{
+				"image": "https://www.fifteenspatulas.com/wp-content/uploads/2011/12/checkerboardcookies6-large.jpg",
+				"id": "icebox",
+				"title": "Checkered Icebox Cookies",
+				"description": "Description here",
+				"date": "October 26th, 2021"
+			},
+			{
+				"image": "https://i.ytimg.com/vi/v7vKePq8bF4/maxresdefault.jpg",
+				"id": "eggyolk",
+				"title": "Korean Egg Yolk Cookies",
+				"description": "Description here",
+				"date": "October 26th, 2021"
+			},
+			{
+				"image": "https://dinnersdishesanddesserts.com/wp-content/uploads/2018/07/Mini-Pavlovas-square-735x578.jpg",
+				"id": "pavlova",
+				"title": "Mini Fruit Pavlova",
+				"description": "Description here",
+				"date": "October 26th, 2021"
+			}
+		]
+	},
+	"about": {
+		"image": "https://avatars.githubusercontent.com/u/29556650?v=4",
+		"alt": "kris",
+		"paragraphs": [
+			"Hi, I'm Kris! Thank you for stopping by :~) I'm a Master's student at UC San Diego and while my career is in engineering, I have a strong passion for baking and culinary arts. I've always loved desserts and sweets, and due to the pandemic, I found myself in the kitchen much more than ever before. As a result, I wanted to create this website to share some of my favorite recipes.",
+			"While I enjoy eating desserts, the one thing I've noticed about many of them is that they're extremely sweet. Of course, the easiest way to combat this is to add less sugar. However, this sometimes does not bode well for the final dessert. Macarons, for example, will not have their signature smooth top and ruffled feet if too little sugar was added. So, the recipes I've shared here have adjusted sugar quantities for those like me who enjoy sweets that aren't too sweet :~)"
+		]
+	}
+}
