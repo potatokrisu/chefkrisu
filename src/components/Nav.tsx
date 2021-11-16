@@ -47,6 +47,17 @@ const Nav: React.FC<NavProps> = ({ setPage }) => {
 						onClick={() => setPage('recipes')}>
 						{'Recipes'}
 					</Link>
+					<Link
+						variant="h5"
+						underline="none"
+						style={{
+							display: 'inline-block',
+							padding: '0 0.5rem',
+							cursor: 'pointer',
+						}}
+						onClick={() => setPage('references')}>
+						{'References'}
+					</Link>
 				</div>
 			</div>
 		</div>

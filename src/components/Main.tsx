@@ -47,7 +47,8 @@ export default function Main() {
 			) : (
 				<>
 					{page === 'home' && <Home setRecipe={setRecipe} />}
-					{page === 'about' && <About />}
+					{page === 'about' && <About dataKey="about" />}
+					{page === 'references' && <About dataKey="references" />}
 					{page === 'recipes' && <div>Recipes</div>}
 				</>
 			)}
