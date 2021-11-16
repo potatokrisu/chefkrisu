@@ -4,7 +4,11 @@ import { Typography } from '@mui/material';
 
 import data from '../data.json';
 
-export default function About() {
+export interface AboutProps {
+	dataKey: keyof typeof data & ('about' | 'references');
+}
+
+const About: React.FC<AboutProps> = ({ dataKey }) => {
 	return (
 		<div style={{ width: '100%', height: '100vh' }}>
 			<div
@@ -18,7 +22,7 @@ export default function About() {
 			/>
 			<div style={{ position: 'absolute', right: '24rem', top: '20rem' }}>
 				<img
-					src={data.about.image}
+					src={data[dataKey].image}
 					alt="kris"
 					style={{
 						width: '16rem',
@@ -30,9 +34,9 @@ export default function About() {
 			</div>
 			<div style={{ padding: '4rem', textAlign: 'left', width: '60%' }}>
 				<Typography variant="h4" style={{ paddingTop: '4rem', paddingBottom: '2rem' }}>
-					{'About'}
+					{dataKey[0].toUpperCase() + dataKey.slice(1)}
 				</Typography>
-				{data.about.paragraphs.map((text, i) => (
+				{data[dataKey].paragraphs.map((text, i) => (
 					<Typography key={i} variant="h6" style={{ padding: '1rem 0' }}>
 						{text}
 					</Typography>
@@ -40,4 +44,6 @@ export default function About() {
 			</div>
 		</div>
 	);
-}
+};
+
+export default About;
