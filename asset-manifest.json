@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/chefkrisu/static/css/main.731fa55b.chunk.css",
-    "main.js": "/chefkrisu/static/js/main.d01ec271.chunk.js",
-    "main.js.map": "/chefkrisu/static/js/main.d01ec271.chunk.js.map",
+    "main.js": "/chefkrisu/static/js/main.0fef7fcc.chunk.js",
+    "main.js.map": "/chefkrisu/static/js/main.0fef7fcc.chunk.js.map",
     "runtime-main.js": "/chefkrisu/static/js/runtime-main.f5b1bcc9.js",
     "runtime-main.js.map": "/chefkrisu/static/js/runtime-main.f5b1bcc9.js.map",
     "static/js/2.3758135a.chunk.js": "/chefkrisu/static/js/2.3758135a.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.f5b1bcc9.js",
     "static/js/2.3758135a.chunk.js",
     "static/css/main.731fa55b.chunk.css",
-    "static/js/main.d01ec271.chunk.js"
+    "static/js/main.0fef7fcc.chunk.js"
   ]
 }
