@@ -26,7 +26,9 @@ const Home: React.FC<HomeProps> = ({ setRecipe }) => {
 					<CardContent style={{ backgroundColor: '#E0E0E0', flexGrow: 1 }}>
 						<Typography variant="h4">{topCard.title}</Typography>
 						<Typography>{topCard.description}</Typography>
-						<Typography>{topCard.date}</Typography>
+						<i>
+							<Typography style={{ marginTop: '0.5rem' }}>{topCard.date}</Typography>
+						</i>
 					</CardContent>
 				</CardActionArea>
 			</Card>
@@ -38,7 +40,7 @@ const Home: React.FC<HomeProps> = ({ setRecipe }) => {
 					gridGap: '4rem',
 				}}>
 				{bottomCards.map((card, i) => (
-					<Card style={{ display: 'inline-flex', flexDirection: 'column' }}>
+					<Card key={i} style={{ display: 'inline-flex', flexDirection: 'column' }}>
 						<CardActionArea onClick={() => setRecipe(card.id)}>
 							<CardMedia
 								component="img"
@@ -46,10 +48,12 @@ const Home: React.FC<HomeProps> = ({ setRecipe }) => {
 								alt={card.id}
 								style={{ height: '20rem' }}
 							/>
-							<CardContent style={{ backgroundColor: '#E0E0E0', flexGrow: 1 }}>
+							<CardContent style={{ backgroundColor: '#E0E0E0', flexGrow: 1, height: '100%' }}>
 								<Typography variant="h4">{card.title}</Typography>
 								<Typography>{card.description}</Typography>
-								<Typography>{card.date}</Typography>
+								<i>
+									<Typography style={{ marginTop: '0.5rem' }}>{card.date}</Typography>
+								</i>
 							</CardContent>
 						</CardActionArea>
 					</Card>
