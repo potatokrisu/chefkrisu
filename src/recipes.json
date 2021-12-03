@@ -4,14 +4,16 @@
 			"image": "https://dinnersdishesanddesserts.com/wp-content/uploads/2018/07/Mini-Pavlovas-square-735x578.jpg",
 			"title": "Lingonberry Macarons",
 			"captions": [
+				"These macarons are the perfect snack for your afternoon teas and small get togethers!"
 				"Cuisine: French & Swedish | Difficult: Hard",
-				"Servings: 17 | Prep time: 2 | Cook time: 4",
-				"Description here"
+				"Servings: about 20 macarons",
+				"Prep time: 20 minutes | Wait time: 1-2 hours | Cook Time: 20 minutes | Total Time: 1 hour 40 minutes – 2 hours 40 minutes"
 			]
 		},
-		"directions": { "list": ["Step 1: nyeh", "Step 2: nyeh", "Step 3: nyeh"], "caption": "" },
+		"directions": { "list": ["Step 1: Make the Macaron Shells", "Step 2: Make the Buttercream", "Step 3: Assemble and Refrigerate", "Step 4: Enjoy!"], "caption": "" },
 		"ingredients": {
-			"list": ["Step 1: nyeh joos", "Step 2: nyeh powder", "Step 3: nyeh sauce"],
+			"list": ["For the Macaron Shell: ", "o	80 g egg whites (about 2 eggs)", "o	95 g almond flour", "o	85 g powdered sugar", "o	75 g granulated sugar",
+				 "For the Buttercream: ", "o	25 g egg whites (about ½ egg)", "o	12 g water", "o	36 g granulated sugar], "o	150g unsalted butter (room temperature)", "o	40 g lingonberry jam"],
 			"caption": ""
 		},
 		"steps": [
