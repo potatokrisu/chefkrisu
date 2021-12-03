@@ -9,7 +9,7 @@ export default function Recipe() {
 	const recipe = recipes[recipeId as keyof typeof recipes];
 
 	return (
-		<div style={{ padding: '4rem', width: 'calc(100% - 8rem)', minHeight: '100%' }}>
+		<div style={{ padding: '4rem 8%', width: '84%', minHeight: '100%' }}>
 			<Card style={{ padding: '4rem', paddingBottom: '1rem', marginBottom: '2rem' }}>
 				<CardMedia
 					component="img"
@@ -30,43 +30,54 @@ export default function Recipe() {
 					</div>
 				</CardContent>
 			</Card>
-			<div style={{ width: 'calc(70% - 2rem)', display: 'inline-block', padding: '1rem' }}>
-				<Card style={{ marginBottom: '1rem' }}>
-					<CardContent style={{ textAlign: 'left', padding: '1rem' }}>
-						<Typography variant="h5">{'DIRECTIONS'}</Typography>
-						{recipe.directions.list.map((d, i) => (
-							<Typography key={i}>{d}</Typography>
-						))}
-						{recipe.directions.caption && <Typography>{recipe.directions.caption}</Typography>}
-					</CardContent>
-				</Card>
-				{recipe.steps.map((step, i) => (
-					<Card style={{ marginBottom: '1rem' }}>
-						{step.image && (
-							<CardMedia component="img" image={step.image} alt={`Step ${i} picture here`} />
-						)}
-						<CardContent style={{ textAlign: 'left', padding: '1rem' }}>
-							<Typography variant="h5">{`STEP ${i}`}</Typography>
-							<Typography>{step.caption}</Typography>
-						</CardContent>
-					</Card>
-				))}
+			<div
+				style={{
+					width: 'calc(70% - 1rem)',
+					display: 'inline-block',
+					padding: '1rem',
+					paddingLeft: 0,
+				}}>
+				{recipe.cards.map(
+					(
+						{
+							title,
+							steps,
+							image,
+							caption,
+						}: { title: string; steps: string[]; image?: string; caption?: string },
+						i
+					) => (
+						<Card key={i} style={{ marginBottom: '1rem' }}>
+							{image && <CardMedia component="img" image={image} alt={`${title} picture here`} />}
+							<CardContent style={{ textAlign: 'left', padding: '1rem' }}>
+								<Typography variant="h5">{title}</Typography>
+								{steps.map((step, j) => (
+									<Typography key={j} style={{ marginTop: '0.25rem' }}>
+										{step}
+									</Typography>
+								))}
+								{caption && <Typography>{caption}</Typography>}
+							</CardContent>
+						</Card>
+					)
+				)}
 			</div>
 			<div
 				style={{
-					width: 'calc(30% - 2rem)',
+					width: 'calc(30% - 1rem)',
 					display: 'inline-block',
 					position: 'sticky',
 					top: 0,
 					padding: '1rem',
+					paddingRight: 0,
 					verticalAlign: 'top',
 				}}>
 				<Card>
 					<CardContent style={{ textAlign: 'left', padding: '1rem' }}>
 						<Typography variant="h5">{'INGREDIENTS'}</Typography>
-						{recipe.ingredients.list.map((i, j) => (
-							<Typography key={j}>{i}</Typography>
-						))}
+						{recipe.ingredients.list.map((i, j) =>
+							i ? <Typography key={j}>{i}</Typography> : <br key={j} />
+						)}
 						{recipe.ingredients.caption && <Typography>{recipe.ingredients.caption}</Typography>}
 					</CardContent>
 				</Card>
