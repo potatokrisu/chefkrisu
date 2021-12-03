@@ -61,23 +61,67 @@
 	"icebox": {
 		"header": {
 			"image": "https://dinnersdishesanddesserts.com/wp-content/uploads/2018/07/Mini-Pavlovas-square-735x578.jpg",
-			"title": "",
-			"captions": ["", "", ""]
+			"title": "Checkered Icebox Cookies",
+			"captions": ["These fun checkered icebox cookies are the easiest and cutest little cookies for holiday gatherings!",
+				"Cuisine: Danish | Difficulty: Easy",
+				"Servings: 30-40 cookies",
+				"Prep time: 20 minutes | Wait time: 45 minutes | Cook Time: 15 minutes | Total Time: 1 hour 20 minutes"
+			]
 		},
-		"directions": { "list": [""], "caption": "" },
-		"ingredients": { "list": [""], "caption": "" },
-		"steps": [
-			{
-				"image": "",
+		"directions": { "list": ["Step 1: Make the Vanilla and Chocolate Doughs", "Step 2: Refrigerate, Assemble, Refrigerate", "Step 3: Bake and Enjoy!"], "caption": "" },
+			"ingredients": {
+				"list": [
+					"For Vanilla Dough: ", "• 50 g butter (room temperature)", "• ½ egg (beaten, room temperature)", "• vanilla extract (optional)", "• 85 g all purpose flour", "• 15 g corn starch",
+					"",
+					"For Vanilla Dough: ", "• 50 g butter (room temperature)", "• ½ egg (beaten, room temperature)", "• vanilla extract (optional)", "• 80 g all purpose flour", "• 10 g corn starch", "• 10 g cocoa powder"],
 				"caption": ""
+			},
+			"steps": [
+				{
+					"image": "",
+					"caption": ""
+				}
+			],
+			"for the vanilla dough": { "list": [
+				"1. Cream together butter and sugar in a bowl until white and fluffy.",
+				"2. Addd in the beaten egg little by little.",
+				"3. Optional: add in a few drops of vanilla extract.",
+				"4. Sift in flour and corn starch.",
+				"5. Mix everything with a mixer. (A spatula also works)",
+				"6. Once everything is fully incorporated, mold the dough to form a 1 inch by 1 inch rectangular stick.",
+				"7. Plastic wrap it and let it cool in the freezer for 25 minutes."]
+			},
+			"for the chocolate dough": { "list": [
+				"1. Cream together butter and sugar in a bowl until white and fluffy.",
+				"2. Addd in the beaten egg little by little.",
+				"3. Optional: add in a few drops of vanilla extract.",
+				"4. Sift in flour, corn starch, and cocoa powder.",
+				"5. Mix everything with a mixer. (A spatula also works)",
+				"6. Once everything is fully incorporated, mold the dough to form a 1 inch by 1 inch rectangular stick.",
+				"7. Plastic wrap it and let it cool in the freezer for 25 minutes."]
+			},
+			"assembly": { "list": [
+				"1. After the dough sticks have been cooled, cut the dough in half length wise.",
+				"2. Cut the dough in half length wise again, creating 4 dough stick pieces per flavor",
+				"3. Arrange the dough sticks so that it resembles a checkerboard (example: top left and bottom right are vanilla and top right and bottom left are chocolate).",
+				"4. Push the dough sticks together and wrap them in plastic wrap again.",
+				"5. Let the arranged dough sticks cool in the freezer for 15 more minutes.",
+				"6. After 15 minutes, preheat the oven to 170 °C (338 °F) .",
+				"7. Slice the dough into 5 mm (1/4 inch) thick pieces.",
+				"8. Place them on a baking tray with parchment paper.",
+				"9. Bake the cookies at 170 °C (338 °F) for 15 minutes.",
+				"10. Cool the cookies on a wire rack."]
 			}
-		]
 	},
 	"eggyolk": {
 		"header": {
 			"image": "https://dinnersdishesanddesserts.com/wp-content/uploads/2018/07/Mini-Pavlovas-square-735x578.jpg",
-			"title": "",
-			"captions": ["", "", ""]
+			"title": "Korean Egg Yolk Cookies",
+			"captions": ["Korean egg yolk cookies are a great way to use those egg yolks leftover from making macarons! They’re a fun bite sized snack that pairs perfectly with milk.",
+				"Cuisine: Korean | Difficulty: Easy",
+				"Servings: about 60 cookies",
+				"Prep time: 15 minutes | Cook Time: 15 minutes | Total Time: 30 minutes"
+			]
 		},
 		"directions": { "list": [""], "caption": "" },
 		"ingredients": { "list": [""], "caption": "" },
