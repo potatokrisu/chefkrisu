@@ -4,71 +4,124 @@
 			"image": "https://dinnersdishesanddesserts.com/wp-content/uploads/2018/07/Mini-Pavlovas-square-735x578.jpg",
 			"title": "Lingonberry Macarons",
 			"captions": [
-				"Cuisine: French & Swedish | Difficult: Hard",
-				"Servings: 17 | Prep time: 2 | Cook time: 4",
-				"Description here"
+				"These macarons are the perfect snack for your afternoon teas and small get togethers!",
+				"Cuisine: French & Swedish | Difficulty: Hard",
+				"Servings: about 20 macarons",
+				"Prep time: 20 minutes | Wait time: 1-2 hours | Cook Time: 20 minutes | Total Time: 1 hour 40 minutes-2 hours 40 minutes"
 			]
 		},
-		"directions": { "list": ["Step 1: nyeh", "Step 2: nyeh", "Step 3: nyeh"], "caption": "" },
+		"directions": { "list": ["Step 1: Make the Macaron Shells", "Step 2: Make the Buttercream", "Step 3: Assemble and Refrigerate", "Step 4: Enjoy!"], "caption": "" },
 		"ingredients": {
-			"list": ["Step 1: nyeh joos", "Step 2: nyeh powder", "Step 3: nyeh sauce"],
+			"list": [
+				"For the Macaron Shell: ", "• 80 g egg whites (about 2 eggs)", "• 95 g almond flour", "• 85 g powdered sugar", "• 75 g granulated sugar",
+				"",
+				"For the Buttercream: ", "• 25 g egg whites (about ½ egg)", "• 12 g water", "• 36 g granulated sugar", "• 150 g unsalted butter (room temperature)", "• 40 g lingonberry jam"],
 			"caption": ""
 		},
 		"steps": [
 			{
 				"image": "",
-				"caption": "long lorem ipsum dolor sit amet consecteturem adipiscing elit"
-			},
-			{
-				"image": "",
-				"caption": "long lorem ipsum dolor sit amet consecteturem adipiscing elit"
-			},
-			{
-				"image": "",
-				"caption": "long lorem ipsum dolor sit amet consecteturem adipiscing elit"
-			},
-			{
-				"image": "",
-				"caption": "long lorem ipsum dolor sit amet consecteturem adipiscing elit"
-			},
-			{
-				"image": "",
-				"caption": "long lorem ipsum dolor sit amet consecteturem adipiscing elit"
-			},
-			{
-				"image": "",
-				"caption": "long lorem ipsum dolor sit amet consecteturem adipiscing elit"
-			},
-			{
-				"image": "",
-				"caption": "long lorem ipsum dolor sit amet consecteturem adipiscing elit"
-			},
-			{
-				"image": "",
-				"caption": "long lorem ipsum dolor sit amet consecteturem adipiscing elit"
+				"caption": ""
 			}
+		],
+		"for the macaron shell": { "list": [
+			"1. Place the egg whites in a bowl.",
+			"2. Add the sugar into the egg whites.",
+			"3. Use a hand mixer or a stand mixer to beat the egg whites and sugar together. (Start slow to melt the sugar, then use the middle speed to whip until the larger bubbles disappear. Finally, use the fastest speed until the egg whites reach stiff peaks.",
+			"4. Sift in half of the almond flour and powdered sugar.",
+			"5. Use the slowest speed on the mixer to incorporate everything before sifting in the remaining half of almond flour and powdered sugar.",
+			"6. Continue to mix until there is a slow ribbon that forms when the whisk is lifted.",
+			"7. Transfer the mixture to a piping bag with a circular tip.",
+			"8. Pipe the macarons onto a piece of parchment paper on a baking tray (Print out a macaron template online for consistent macaron shells).",
+			"9. Drop the tray from a few inches off the ground or counter to get rid of any air bubbles in the macarons. Repeat several times. (If there are still air bubbles, use a toothpick to gently remove them.)",
+			"10. Let the macarons rest for about an hour. (This waiting period depends on the humidity in your area.) The macarons will be ready when the tops become matte. Lightly run a finger over the tops and if the macarons are dry, they're ready to be put in the oven.",
+			"11. Preheat the oven to 120 °C (250 °F)",
+			"12. Lower the heat to 90 °C (195 °F) and place the macarons in the oven for 2-3 minutes. Leave the oven door slightly open for a little more drying.",
+			"13. Close the oven door and set the heat to 140 °C (285 °F).",
+			"14. Bake the macarons for 15 minutes.",
+			"15. Let the macarons cool on a wire rack."] 
+		},
+		"for the lingonberry buttercream": { "list":[
+			"1. Create a syrup by putting water and sugar together in a pot.",
+			"2. Place it on the stove on medium low heat and heat it until it reaches 180 °C (245 °F).",
+			"3. While it's heating up, start whisking the egg whites to a fluffy state.",
+			"4. Once the egg whites are fluffy and the syrup is heated, slowly pour the syrup into the egg whites while the egg whites continue to be whisked.",
+			"5. Continue to whisk until the mixture cools down to 20°C - 25°C (68°F - 72°F).",
+			"6. Once cooled, add in unsalted butter little by little. (If it gets clumpy or watery, just continue mixing--it will fix itself! The final mixture should be soft and fluffy but creamy and smooth.",
+			"7. Mix in lingonberry jam (and food coloring if desired)."]
+		},
+		"assembly": { "list":[
+			"1. Find two macaron shells of similar size and pipe the buttercream onto one of them.",
+			"2. Form a sandwich and repeat.",
+			"3. Let the macarons rest in the fridge so that the shells can be softened.",
+			"4. Enjoy!"
 		]
+		}
 	},
 	"icebox": {
 		"header": {
 			"image": "https://dinnersdishesanddesserts.com/wp-content/uploads/2018/07/Mini-Pavlovas-square-735x578.jpg",
-			"title": "",
-			"captions": ["", "", ""]
+			"title": "Checkered Icebox Cookies",
+			"captions": ["These fun checkered icebox cookies are the easiest and cutest little cookies for holiday gatherings!",
+				"Cuisine: Danish | Difficulty: Easy",
+				"Servings: 30-40 cookies",
+				"Prep time: 20 minutes | Wait time: 45 minutes | Cook Time: 15 minutes | Total Time: 1 hour 20 minutes"
+			]
 		},
-		"directions": { "list": [""], "caption": "" },
-		"ingredients": { "list": [""], "caption": "" },
-		"steps": [
-			{
-				"image": "",
+		"directions": { "list": ["Step 1: Make the Vanilla and Chocolate Doughs", "Step 2: Refrigerate, Assemble, Refrigerate", "Step 3: Bake and Enjoy!"], "caption": "" },
+			"ingredients": {
+				"list": [
+					"For Vanilla Dough: ", "• 50 g butter (room temperature)", "• ½ egg (beaten, room temperature)", "• vanilla extract (optional)", "• 85 g all purpose flour", "• 15 g corn starch",
+					"",
+					"For Chocolate Dough: ", "• 50 g butter (room temperature)", "• ½ egg (beaten, room temperature)", "• vanilla extract (optional)", "• 80 g all purpose flour", "• 10 g corn starch", "• 10 g cocoa powder"],
 				"caption": ""
+			},
+			"steps": [
+				{
+					"image": "",
+					"caption": ""
+				}
+			],
+			"for the vanilla dough": { "list": [
+				"1. Cream together butter and sugar in a bowl until white and fluffy.",
+				"2. Addd in the beaten egg little by little.",
+				"3. Optional: add in a few drops of vanilla extract.",
+				"4. Sift in flour and corn starch.",
+				"5. Mix everything with a mixer. (A spatula also works)",
+				"6. Once everything is fully incorporated, mold the dough to form a 1 inch by 1 inch rectangular stick.",
+				"7. Plastic wrap it and let it cool in the freezer for 25 minutes."]
+			},
+			"for the chocolate dough": { "list": [
+				"1. Cream together butter and sugar in a bowl until white and fluffy.",
+				"2. Addd in the beaten egg little by little.",
+				"3. Optional: add in a few drops of vanilla extract.",
+				"4. Sift in flour, corn starch, and cocoa powder.",
+				"5. Mix everything with a mixer. (A spatula also works)",
+				"6. Once everything is fully incorporated, mold the dough to form a 1 inch by 1 inch rectangular stick.",
+				"7. Plastic wrap it and let it cool in the freezer for 25 minutes."]
+			},
+			"assembly": { "list": [
+				"1. After the dough sticks have been cooled, cut the dough in half length wise.",
+				"2. Cut the dough in half length wise again, creating 4 dough stick pieces per flavor",
+				"3. Arrange the dough sticks so that it resembles a checkerboard (example: top left and bottom right are vanilla and top right and bottom left are chocolate).",
+				"4. Push the dough sticks together and wrap them in plastic wrap again.",
+				"5. Let the arranged dough sticks cool in the freezer for 15 more minutes.",
+				"6. After 15 minutes, preheat the oven to 170 °C (338 °F) .",
+				"7. Slice the dough into 5 mm (1/4 inch) thick pieces.",
+				"8. Place them on a baking tray with parchment paper.",
+				"9. Bake the cookies at 170 °C (338 °F) for 15 minutes.",
+				"10. Cool the cookies on a wire rack."]
 			}
-		]
 	},
 	"eggyolk": {
 		"header": {
 			"image": "https://dinnersdishesanddesserts.com/wp-content/uploads/2018/07/Mini-Pavlovas-square-735x578.jpg",
-			"title": "",
-			"captions": ["", "", ""]
+			"title": "Korean Egg Yolk Cookies",
+			"captions": ["Korean egg yolk cookies are a great way to use those egg yolks leftover from making macarons! They’re a fun bite sized snack that pairs perfectly with milk.",
+				"Cuisine: Korean | Difficulty: Easy",
+				"Servings: about 60 cookies",
+				"Prep time: 15 minutes | Cook Time: 15 minutes | Total Time: 30 minutes"
+			]
 		},
 		"directions": { "list": [""], "caption": "" },
 		"ingredients": { "list": [""], "caption": "" },
