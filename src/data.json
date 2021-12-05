@@ -2,14 +2,14 @@
 	"home": {
 		"cards": [
 			{
-				"image": "https://www.nationaldayarchives.com/wp-content/uploads/2019/11/macarons-7-min-1024x683.jpg",
+				"image": "/macaron.jpg",
 				"id": "macaron",
 				"title": "Lingonberry Macarons",
 				"description": "These macarons are the perfect snack for your afternoon teas and small get togethers!",
 				"date": "October 26th, 2021"
 			},
 			{
-				"image": "https://www.fifteenspatulas.com/wp-content/uploads/2011/12/checkerboardcookies6-large.jpg",
+				"image": "/icebox.jpg",
 				"id": "icebox",
 				"title": "Checkered Icebox Cookies",
 				"description": "These fun checkered icebox cookies are the easiest and cutest little cookies for holiday gatherings!",
@@ -45,19 +45,19 @@
 		"alt": "Links",
 		"paragraphs": [
 			"Lingonberry Macarons: ",
-			
+
 			"The first link below contains the recipe for the filling of macarons. One of the recipes showed how to make a blueberry jam macaron filling where they mixed buttercream with blueberry jam. My lingonberry macarons use this same concept but with lingonberry jam.",
 			"The second link contains the recipe for making macaron shells with a hand mixer. It provides useful tips for making macarons with a hand mixer and in my recipe, I relay them back in text form. They are also missing some information about making macarons, which are added in my recipe.",
 
-			"Sugar Bean 슈가빈. 10 Macaron Recipes Collection 10 가지 마카롱 필링 레시피 모음집 [SUGAR BEAN]. Sugar Bean 슈가빈, 2 Aug. 2021, https://youtu.be/zxfkJg0ot4Q.", 
+			"Sugar Bean 슈가빈. 10 Macaron Recipes Collection 10 가지 마카롱 필링 레시피 모음집 [SUGAR BEAN]. Sugar Bean 슈가빈, 2 Aug. 2021, https://youtu.be/zxfkJg0ot4Q.",
 			"Sugar Bean 슈가빈. How to Make Perfect French Macaron Shells (Hand Mixer) 완벽한 프렌치 마카롱 꼬끄 만드는 법ㅣSUGAR BEAN. Sugar Bean 슈가빈, 25 Jan. 2021, https://youtu.be/jC8Hc5aHtVM.",
-			
+
 			"Icebox Cookies: ",
 			"ochikeron. How to Make Checkerboard Cookies (EASY Ice Box Cookie Recipe) | OCHIKERON | Create Eat Happy :). ochikeron, 8 July 2014, https://www.youtube.com/watch?v=mvwpF8xC8CY.",
-			
+
 			"Korean Egg Yolk Cookies: ",
 			"Sunday Baking. Korean Egg Cookie / 계란 과자. Sunday Baking, 26 Apr. 2017, https://www.youtube.com/watch?v=v7vKePq8bF4.",
-			
+
 			"Mini Fruit Pavlova: ",
 			"kitchen潘朵拉的廚房. 超簡單蛋糕❗你不能不知道的經典蛋糕。帕芙洛娃｜吃一口就愛上｜蛋白可以做什么？｜pavlova Cake Recipe Easy. kitchen潘朵拉的廚房, 11 May 2021, https://www.youtube.com/watch?v=hvGyMwhschk."
 		]

@@ -19,7 +19,7 @@ const Home: React.FC<HomeProps> = ({ setRecipe }) => {
 					onClick={() => setRecipe(topCard.id)}>
 					<CardMedia
 						component="img"
-						image={topCard.image}
+						image={(i => (i.startsWith('http') ? i : process.env.PUBLIC_URL + i))(topCard.image)}
 						alt={topCard.id}
 						style={{ height: '20rem', width: '30rem' }}
 					/>
@@ -44,7 +44,7 @@ const Home: React.FC<HomeProps> = ({ setRecipe }) => {
 						<CardActionArea onClick={() => setRecipe(card.id)}>
 							<CardMedia
 								component="img"
-								image={card.image}
+								image={(i => (i.startsWith('http') ? i : process.env.PUBLIC_URL + i))(card.image)}
 								alt={card.id}
 								style={{ height: '20rem' }}
 							/>
