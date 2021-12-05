@@ -41,7 +41,7 @@ export default function Main() {
 				height: '100%',
 				backgroundColor: '#FAF8DE',
 			}}>
-			<Nav setPage={setPage} />
+			<Nav setRecipe={setRecipe} setPage={setPage} />
 			{recipe ? (
 				<Recipe />
 			) : (
