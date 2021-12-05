@@ -1,7 +1,7 @@
 {
 	"macaron": {
 		"header": {
-			"image": "https://dinnersdishesanddesserts.com/wp-content/uploads/2018/07/Mini-Pavlovas-square-735x578.jpg",
+			"image": "https://www.nationaldayarchives.com/wp-content/uploads/2019/11/macarons-7-min-1024x683.jpg",
 			"title": "Lingonberry Macarons",
 			"captions": [
 				"These macarons are the perfect snack for your afternoon teas and small get togethers!",
@@ -82,7 +82,7 @@
 	},
 	"icebox": {
 		"header": {
-			"image": "https://dinnersdishesanddesserts.com/wp-content/uploads/2018/07/Mini-Pavlovas-square-735x578.jpg",
+			"image": "https://www.fifteenspatulas.com/wp-content/uploads/2011/12/checkerboardcookies6-large.jpg",
 			"title": "Checkered Icebox Cookies",
 			"captions": [
 				"These fun checkered icebox cookies are the easiest and cutest little cookies for holiday gatherings!",
@@ -152,7 +152,7 @@
 					"3. Arrange the dough sticks so that it resembles a checkerboard (example: top left and bottom right are vanilla and top right and bottom left are chocolate).",
 					"4. Push the dough sticks together and wrap them in plastic wrap again.",
 					"5. Let the arranged dough sticks cool in the freezer for 15 more minutes.",
-					"6. After 15 minutes, preheat the oven to 170 °C (338 °F) .",
+					"6. After 15 minutes, preheat the oven to 170 °C (338 °F).",
 					"7. Slice the dough into 5 mm (1/4 inch) thick pieces.",
 					"8. Place them on a baking tray with parchment paper.",
 					"9. Bake the cookies at 170 °C (338 °F) for 15 minutes.",
@@ -163,7 +163,7 @@
 	},
 	"eggyolk": {
 		"header": {
-			"image": "https://dinnersdishesanddesserts.com/wp-content/uploads/2018/07/Mini-Pavlovas-square-735x578.jpg",
+			"image": "https://i.ytimg.com/vi/v7vKePq8bF4/maxresdefault.jpg",
 			"title": "Korean Egg Yolk Cookies",
 			"captions": [
 				"Korean egg yolk cookies are a great way to use those egg yolks leftover from making macarons! They’re a fun bite sized snack that pairs perfectly with milk.",
@@ -173,16 +173,72 @@
 			]
 		},
 
-		"ingredients": { "list": [""], "caption": "" },
-		"cards": [{ "title": "Directions", "steps": [], "caption": "" }]
+		"ingredients": { 
+			"list": [
+				"• 80 g butter (room temperature)",
+				"• 60 g granulated sugar",
+				"• 1 egg",
+				"• 1 egg yolk",
+				"• Vanilla extract",
+				"• 85 g all purpose flour",
+				"• 15 g corn starch",
+				"• 20 g almond flour"
+			], 
+			"caption": "" },
+		"cards": [{ "title": "Steps", 
+			"steps": [
+				"1. Cream together butter and sugar in a bowl until white and fluffy.",
+				"2. Add in the egg and egg yolk to the butter and sugar little by little.",
+				"3. Optional: add in a few drops of vanilla extract.",
+				"4. Sift in flour, corn starch, and almond flour.",
+				"5. Mix everything with a mixer or a spatula.",
+				"6. Once fully incorporated, put the mixture in a piping bag with a circular tip.",
+				"7. Set up a baking tray with a baking sheet and preheat the oven to 170 °C (338 °F).",
+				"8. Pipe the mixture on the baking sheet. Each cookie should be 1 inch in diameter.",
+				"9. Bake the cookies at 170 °C (338 °F) for 15 minutes until golden brown.",
+				"10. Cool the cookies on a wire rack.",
+				"11. Enjoy!"
+			], "caption": "" }]
 	},
 	"pavlova": {
 		"header": {
 			"image": "https://dinnersdishesanddesserts.com/wp-content/uploads/2018/07/Mini-Pavlovas-square-735x578.jpg",
-			"title": "",
-			"captions": ["", "", ""]
+			"title": "Mini Fruit Pavlova",
+			"captions": [
+				"Mini fruit pavlova is a simple cake that combines merengues with your favorite fruits!", 
+				"Cuisine: Australian | Difficulty: Medium", 
+				"Servings: 3 pavlovas",
+				"Prep time: 20 minutes | Wait Time: 20-30 minutes | Cook Time: 70-80 minutes | Total Time: 1 hour 50 minutes - 2 hours 10 minutes"
+			]
 		},
-		"ingredients": { "list": [""], "caption": "" },
-		"cards": [{ "title": "Directions", "steps": [], "caption": "" }]
+		"ingredients": { 
+			"list": [
+				"• 35 g egg whites (about 1 egg)",
+				"• 1 g lemon juice",
+				"• 50 g granulated sugar",
+				"• 2 g corn starch",
+				"• Vanilla extract",
+				"• 40 g heavy whipping cream",
+				"• Fruit of your choosing"
+			], 
+			"caption": "" },
+		"cards": [{ "title": "Steps", 
+			"steps": [
+				"1. Add the lemon juice to the egg whites.",
+				"2. Whip the egg whites until frothy.",
+				"3. Add the sugar in three parts.",
+				"4. When there are soft peaks, add in the corn starch and vanilla extract.",
+				"5. Whip until stiff peaks.",
+				"6. Divide the mixture into three and place them onto parchment paper.",
+				"7. Use a spoon to shape the mixtures into igloos.",
+				"8. Clean the back of the spoon and make a divot at the top of the pavlova.",
+				"9. Bake pavlova at 105 °C (220 °F) for 70-80 minutes.",
+				"10. Once time is up, turn off the oven and leave the pavlova inside with the oven door open.",
+				"11. Let the pavlova cool inside the oven for 20-30 minutes.",
+				"12. Mix the whipping cream to 80% stiffness.",
+				"13. Decorate the pavlova with whipping cream and chopped up fruits.",
+				"14. Enjoy!"
+			], 
+			"caption": "" }]
 	}
 }

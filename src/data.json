@@ -36,11 +36,12 @@
 		"alt": "kris",
 		"paragraphs": [
 			"Hi, I'm Kris! Thank you for stopping by :~) I'm a Master's student at UC San Diego and while my career is in engineering, I have a strong passion for baking and culinary arts. I've always loved desserts and sweets, and due to the pandemic, I found myself in the kitchen much more than ever before. As a result, I wanted to create this website to share some of my favorite recipes.",
-			"While I enjoy eating desserts, the one thing I've noticed about many of them is that they're extremely sweet. Of course, the easiest way to combat this is to add less sugar. However, this sometimes does not bode well for the final dessert. Macarons, for example, will not have their signature smooth top and ruffled feet if too little sugar was added. So, the recipes I've shared here have adjusted sugar quantities for those like me who enjoy sweets that aren't too sweet :~)"
+			"While I enjoy eating desserts, the one thing I've noticed about many of them is that they're extremely sweet. Of course, the easiest way to combat this is to add less sugar. However, this sometimes does not bode well for the final dessert. Macarons, for example, will not have their signature smooth top and ruffled feet if too little sugar was added. So, the recipes I've shared here have adjusted sugar quantities for those like me who enjoy sweets that aren't too sweet :~)",
+			"This website is a collection of sweets (that aren’t too sweet) that I’ve made and would love to share with other dessert lovers who want to watch their sugar consumption. Although this was made as a class project, I plan to update this website from time to time. I would also like to share that I do not have much programming background, hence the simplicity of the site. I also plan on improving the site in the future as I learn more about programming."
 		]
 	},
 	"references": {
-		"image": "https://img.icons8.com/external-vitaliy-gorbachev-lineal-color-vitaly-gorbachev/60/000000/external-sakura-chinese-new-year-vitaliy-gorbachev-lineal-color-vitaly-gorbachev.png",
+		"image": "https://cdn.pixabay.com/photo/2018/03/02/08/47/rose-3192610_1280.png",
 		"alt": "Links",
 		"paragraphs": [
 			"Lingonberry Macarons: ",
