@@ -8,7 +8,15 @@ export interface NavProps {
 
 const Nav: React.FC<NavProps> = ({ setPage }) => {
 	return (
-		<div style={{ position: 'fixed', top: 0, height: '4rem', width: '100%', zIndex: 1 }}>
+		<div
+			style={{
+				position: 'fixed',
+				top: 0,
+				height: '4rem',
+				width: '100%',
+				zIndex: 1,
+				background: 'linear-gradient(rgba(2,0,36,0.35), rgba(224,224,224,0.125))',
+			}}>
 			<div style={{ display: 'flex', justifyContent: 'space-between', padding: '0.5rem' }}>
 				<div style={{ display: 'inline-block' }}>
 					<Typography variant="h4">{'CHEFKRISU'}</Typography>

@@ -10,7 +10,7 @@ export interface AboutProps {
 
 const About: React.FC<AboutProps> = ({ dataKey }) => {
 	return (
-		<div style={{ width: '100%', height: '100vh' }}>
+		<div style={{ position: 'relative', width: '100%', minHeight: '100vh', height: '100%' }}>
 			<div
 				style={{
 					position: 'absolute',

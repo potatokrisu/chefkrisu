@@ -13,7 +13,9 @@ export default function Recipe() {
 			<Card style={{ padding: '4rem', paddingBottom: '1rem', marginBottom: '2rem' }}>
 				<CardMedia
 					component="img"
-					image={recipe.header.image}
+					image={(i => (i.startsWith('http') ? i : process.env.PUBLIC_URL + i))(
+						recipe.header.image
+					)}
 					alt={recipeId}
 					style={{ height: '32rem' }}
 				/>
